@@ -179,7 +179,21 @@
                     <label for="comment">Detalhe o porquê dessa Opinião: </label>
                     <textarea id="comment" name="userComment" placeholder="Digite aqui sua opinião..." ></textarea>
                     
-                    
+            </fieldset>
+
+            <fieldset>
+                <legend>Confirmações</legend>
+                <br>
+
+                <input type="checkbox" name="userLGPD" id="userLGPDTerm" value="accepted" required>
+                <label for="userLGPDTerm">Eu aceito participar da pesquisa.</label>
+                <br>
+                <br>
+
+                <input type="checkbox" name="userGetResult" id="getResult" value="accepted">
+                <label for="userLGPDTerm">Desejo receber o resultado por email.</label>
+
+
             </fieldset>
             
             
@@ -189,6 +203,7 @@
 
             <br>
             <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
 
 
         </form>
