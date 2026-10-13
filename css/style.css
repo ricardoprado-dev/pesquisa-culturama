@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: "Work Sans", sans-serif;
+}
+
+main {
+
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto; /*Nao quero margem em cima nem em baixo, por isso o primeiro 0, e nas laterais para centralizar automaticamente = auto */
+
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;}
+
+img {
+
+    width: 100px;
+
+
+}
+
+
+h1 {
+
+    font-family: "Fjalla One", sans-serif;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+fieldset {
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 5px;
+}
