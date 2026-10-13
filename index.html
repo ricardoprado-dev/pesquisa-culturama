@@ -17,62 +17,55 @@
 
             <header>
                 <img src="img/logo-culturama.png" alt="logo culturama">
-                <h1>Pesquisa Online</h1>
+                <h1>Pesquisa de opinião</h1>
             </header>
 
             <section>
 
-                <form action="" method="get">
+                <form action="sucesso.html" method="get">
 
 
                     <fieldset>
                         <legend>Dados Pessoais</legend>
-                        <br>
+                        
 
 
 
 
                         <label for="name">Nome: </label>
                         <input id="name" type="text" name="userName" required>
-                        <br>
-                        <br>
-
+                        
                         <label for="age">Idade: </label>
                         <input id="age" type="number" name="userAge" min="12" max="100" required>
-                        <br>
-                        <br>
+                        
 
                         <label for="birthD">Data de nascimento: </label>
                         <input id="birthD" type="date" name ="birthDate">
-                        <br>
-                        <br>
+                        
 
 
                         <label for="email">Email: </label>
                         <input id="email" type="email" name="userEmail" required>
-                        <br>
-                        <br>
+                        
 
                         <label for="phone">Telefone: </label>
                         <input id="phone" type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + número sem espaços ou hífen">
-                        <br>
-                        <br>
+                        
 
                         <label for="img">Upload de foto: </label>
                         <input id="img" type="file" accept="image/*" name="userImage">
-                        <br>
-                        <br>
+                        
 
                     </fieldset>
-                    <br>
+                    
 
                     <fieldset>
 
                         <legend>Perfil</legend>
-                        <br>
+                       
 
                         <p>Gênero: </p>
-                        <br>
+                        
 
                         <input id="masc" type="radio" name="userGender" value="Masculino">
                         <label for="masc">Masculino</label>
@@ -131,8 +124,7 @@
                             <option value="sergipe">Sergipe</option>
                             <option value="tocantins">Tocantins</option>
                         </select>
-                        <br>
-                        <br>
+
                         <label for="city">Cidade: </label>
                         <input id="city" type="text" name="cityUser">
 
@@ -140,15 +132,15 @@
 
 
                     </fieldset>
-                    <br>
+                    
 
 
                     <fieldset>
                         <legend>Hábitos</legend>
-                        <br>
+                        
                         <p>Redes sociais: </p>
                         <br>
-                        <input id="instagram" type="checkbox" name="social" value="Instagram">
+                        <input id="instagram" type="checkbox" name="social" value="instagram">
                         <label for="instagram">Instagram</label>
                         <br>
                         <br>
@@ -161,7 +153,7 @@
                         <br>
                         <br>
                         <input id="X" type="checkbox" name="social" value="x">
-                        <label for="x">X</label>
+                        <label for="X">X</label>
                         <br>
                         <br>
 
@@ -174,18 +166,17 @@
                             <option value="Hip-hop"></option>
                         </datalist>
 
-                        <br>
-                        <br>
+                        
                         <label for="favoriteColor">Cor favorita: </label>
                         <input type="color" name="userFavoriteColor" id="favoriteColor">
 
 
                     </fieldset>
-                    <br>
+                    
 
                     <fieldset>
                         <legend>Opinião</legend>
-                        <br>
+                        
                         <p>O que você acha da qualidade do nosso serviço?</p>
                         <br>
 
@@ -212,7 +203,7 @@
                     
                         
                     </fieldset>
-                    <br>
+                   
 
 
                     <fieldset>
@@ -226,7 +217,8 @@
                         <br>
 
                         <input type="checkbox" name="userGetResult" id="getResult" value="accepted">
-                        <label for="userLGPDTerm">Desejo receber o resultado por email.</label>
+                        <label for="getResult">Desejo receber o resultado por email.</label>
+                        <br>
 
 
                     </fieldset>
@@ -238,6 +230,7 @@
 
                     <br>
                     <button type="submit">Enviar</button>
+                    
                     <button type="reset">Limpar</button>
 
 
