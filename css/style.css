@@ -20,7 +20,9 @@ main {
 
 header {
     text-align: center;
-    margin-bottom: 20px;}
+    margin-bottom: 20px;
+    
+}
 
 img {
 
@@ -36,16 +38,34 @@ h1 {
 }
 
 form {
+
     background-color: #ffffff;
     padding: 15px;
     border-radius: 15px;
+    margin-bottom: 100px;
+    
 }
+
+/* Mostra o estado de validação em todos os campos do formulário. */
+form input:invalid,
+form select:invalid,
+form textarea:invalid {
+    border-color: #dc3545;
+}
+
+form input:valid,
+form select:valid,
+form textarea:valid {
+    border-color: #198754;
+}
+
 
 fieldset {
     padding: 15px;
     border: 1px solid #cccccc;
     border-radius: 5px;
     margin-bottom: 15px;
+    
 }
 
 legend {
@@ -60,10 +80,18 @@ label {
     margin-bottom: 5px;
 }
 
-input, select, textarea {
+p {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+input:not([type="radio"]):not([type="checkbox"]):not([type="color"]),
+select,
+textarea {
+    display: block;
     width: 100%;
-    padding: 10px;  
-    margin: 20px;
+    padding: 10px;
+    margin: 8px 0 16px;
     border: 1px solid #cccccc;
     border-radius: 5px;
 }
@@ -74,8 +102,8 @@ textarea {
 
 input[type="radio"],
 input[type="checkbox"] {
-
     width: auto;
+    margin: 0 6px 0 0;
 }
 
 input[type="color"] {
@@ -85,4 +113,25 @@ input[type="color"] {
     border-radius: 500px;
 
 
+}
+
+button {
+
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: green;
+    color: #ffffff;
+}
+
+button[type="reset"]:hover{
+    background-color: orangered;
+    color: white;
 }
