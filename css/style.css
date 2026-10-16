@@ -86,6 +86,15 @@ p {
     font-weight: bold;
 }
 
+input[type="tel"] {
+    margin-bottom: 0px;
+}
+
+small {
+    display:inline-block;
+    margin-bottom: 20px;
+}
+
 input:not([type="radio"]):not([type="checkbox"]):not([type="color"]),
 select,
 textarea {
