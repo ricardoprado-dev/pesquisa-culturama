@@ -86,8 +86,10 @@ p {
     font-weight: bold;
 }
 
-input[type="tel"] {
-    margin-bottom: 0px;
+input[type="tel"],
+input[type="file"] {
+    margin-bottom: 0;
+    
 }
 
 small {
